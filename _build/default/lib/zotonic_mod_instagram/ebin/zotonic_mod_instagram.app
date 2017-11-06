@@ -1,0 +1,13 @@
+{application,zotonic_mod_instagram,
+             [{description,"Adds Instagram login and other Instagram related features."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[controller_instagram_authorize,
+                        controller_instagram_push,
+                        controller_instagram_redirect,instagram_api,
+                        instagram_import,mod_instagram]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

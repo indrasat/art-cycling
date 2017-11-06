@@ -1,0 +1,10 @@
+{application,zotonic_mod_video_embed,
+             [{description,"Embed youtube, vimeo and other movies as media pages."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[mod_video_embed]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

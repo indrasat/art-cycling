@@ -1,0 +1,10 @@
+{application,zotonic_mod_admin_frontend,
+             [{description,"Edit pages on a web site; subset of admin module for Bootstrap based web sites."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[mod_admin_frontend]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

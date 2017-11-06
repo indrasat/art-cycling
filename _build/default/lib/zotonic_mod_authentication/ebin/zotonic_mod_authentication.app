@@ -1,0 +1,12 @@
+{application,zotonic_mod_authentication,
+             [{description,"Handles authentication and identification of users."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core,zotonic_mod_admin]},
+              {env,[]},
+              {modules,[action_authentication_auth_disconnect,
+                        controller_logoff,controller_logon,
+                        mod_authentication]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

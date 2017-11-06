@@ -1,0 +1,11 @@
+{application,zotonic_mod_admin_predicate,
+             [{description,"Adds support for editing predicates to the admin."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[action_admin_predicate_dialog_predicate_new,
+                        mod_admin_predicate]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

@@ -1,0 +1,13 @@
+{application,zotonic_mod_twitter,
+             [{description,"Use Twitter for logon, and/or follow users on Twitter using the streaming HTTP API."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[controller_twitter_authorize,
+                        controller_twitter_redirect,filter_twitter,
+                        mod_twitter,oauth_twitter_client,
+                        twitter_import_tweet]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

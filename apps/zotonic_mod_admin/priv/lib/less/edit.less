@@ -1,0 +1,183 @@
+
+ul.media {
+    @_item_spacing: 10px;
+    margin: 0;
+    
+    > li {
+        @_padding: 5px;
+        @_image_width: 180px; // set in mediaclass.config
+        @_image_height: 180px; // set in mediaclass.config
+        @_width: @_image_width + 2 * @_padding + 2; // add border
+        @_height: @_image_height + 2 * @_padding + 2 + 30;
+        
+        margin: 0 @_item_spacing @_item_spacing 0;
+        background: #fff;
+        width: @_width;
+        height: @_height;
+        float: left;
+        position: relative;
+        padding: @_padding;
+        border: 1px solid @borderColorMedium;
+        #3L > .border-radius(@radiusBlockElement);
+        #3L > .box-shadow(none);
+        
+        &.sortable {
+            cursor: move;
+        }
+        figure {
+            position: relative;
+            margin: auto;
+        }
+        img {
+            display: block;
+            border: 1px solid @borderColorLight; 
+            max-width: @_image_width;
+            margin: auto;
+        }
+        .z-btn-remove {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        .bottom {
+            position: absolute;
+            bottom: @_padding;
+            left: @_padding;
+            right: @_padding;
+            
+            .caption {
+                height: @roundBtnSize;
+                overflow: hidden;
+                
+                a {
+                    word-break: break-all;
+                    display: block;
+                    height: @roundBtnSize;
+                    max-height: @roundBtnSize;
+                    overflow: hidden;
+                    line-height: @roundBtnSize;
+                    width: @_image_width - @roundBtnSize - 3;
+                    vertical-align: text-top;
+                }
+            }
+        }
+    }
+
+    > li.ui-sortable-placeholder {
+        &:extend(.z-drag-drop-placeholder);
+    }
+}
+
+@_leaderImageWidth: 80px;
+@_leaderImageHeight: 60px;
+
+.edit-page {
+    .admin-container {
+        margin-top: @topbarHeight;
+    }
+    .admin-header {
+        .admin-header-meta {
+            margin: 0 -@baseMargin 0 -@baseMargin;
+            padding: @baseMargin;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        .admin-btn-category {
+            font-size: 12px;
+        }
+        .admin-btn-category {
+            margin-top: -2px;
+        }
+        .admin-edit-dates {
+            &,
+            a {
+                color: @textColorLight;
+            }
+            a {
+                text-decoration: underline;
+            }
+        }
+        .admin-header-has-image {
+            padding-left: @_leaderImageWidth + 20px;
+        }
+    }
+}
+
+/* small image in admin edit */
+img.admin-leader-image {
+    background-color: @backgroundColorLighter;
+    float: left;
+    width: @_leaderImageWidth;
+    height: @_leaderImageHeight;
+}
+
+.admin-edit-media {
+    display: inline-block;
+    background: white;
+    padding: 0;
+    margin: 0 0 10px 0;
+    &:extend(.admin-image-border);
+}
+
+.ui-datepicker .ui-datepicker-header {
+    height: 29px;
+}
+
+input.do_datepicker {
+    width: 100px;
+    display: inline;
+}
+input.do_timepicker {
+    width: 70px;
+    display: inline;
+}
+
+#sidebar-date-range .tab-content {
+    overflow: visible;
+}
+
+.navbar.admin-navbar-fixed-save {
+    @_transation_duration: 0.3s;
+    
+    z-index: 1000;
+    opacity: 0;
+    position: fixed;
+    top: @topbarHeight;
+    border-radius: 0;
+    padding: @widgetVerticalPadding @widgetSidePadding;
+    background-color: @backgroundColorInfo;
+    -webkit-transition: opacity @_transation_duration ease-in-out;
+    -moz-transition: opacity @_transation_duration ease-in-out;
+    -o-transition: opacity @_transation_duration ease-in-out;
+    transition: opacity @_transation_duration ease-in-out;
+    min-height: inherit;
+    #3L > .box-shadow(none);
+}
+
+.scrolled .admin-navbar-fixed-save {
+    opacity: 1.0;
+}
+
+div + .admin-edit-no-features {
+    display: none;
+}
+
+.edit-message {
+    background-color: @backgroundColorInfo;
+    border-color: @backgroundColorInfo;
+    color: @textColorButton;
+    
+    .btn {
+        margin-top: -2px;
+    }
+}
+
+@media (max-width: @breakpointMediumMaxWidth) {
+    .admin-navbar-fixed-save {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+}

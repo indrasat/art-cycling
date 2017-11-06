@@ -1,0 +1,11 @@
+{application,zotonic_mod_filestore,
+             [{description,"Store files on cloud storage services like Amazon S3 and GreenQloud"},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[filestore_admin,filestore_uploader,m_filestore,
+                        mod_filestore]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

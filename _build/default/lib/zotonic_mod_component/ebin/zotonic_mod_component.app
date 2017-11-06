@@ -1,0 +1,10 @@
+{application,zotonic_mod_component,
+             [{description,"Create modular, dynamic user interfaces with components and rich interactions."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[action_component_inject,mod_component]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

@@ -1,0 +1,10 @@
+{application,zotonic_mod_admin_merge,
+             [{description,"User interface to merge resources in the admin."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[filter_admin_merge_diff,mod_admin_merge]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

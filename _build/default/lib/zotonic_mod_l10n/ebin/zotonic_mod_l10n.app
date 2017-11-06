@@ -1,0 +1,11 @@
+{application,zotonic_mod_l10n,
+             [{description,"Localization, timezones, translations for country names etc."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[l10n_country2iso,l10n_date,l10n_iso2country,m_l10n,
+                        mod_l10n]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

@@ -1,0 +1,12 @@
+{application,zotonic_mod_backup,
+             [{description,"Make a backup of the database and files."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core,zotonic_mod_admin]},
+              {env,[]},
+              {modules,[action_backup_backup_start,controller_admin_backup,
+                        controller_admin_backup_revision,m_backup,
+                        m_backup_revision,mod_backup]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

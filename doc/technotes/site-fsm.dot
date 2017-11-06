@@ -1,0 +1,28 @@
+digraph site_fsm {
+
+	disabled -> start;
+	start -> disabled;
+	stopped -> disabled;
+
+	start -> db_connect_check;
+	db_connect_check -> datamodel_check;
+	datamodel_check -> supervisor_start;
+
+	supervisor_start -> modules_start;
+	modules_start -> running;
+
+	modules_start -> crashed [style=dashed];
+	supervisor_start -> crashed [style=dashed];
+
+	running -> crashed [style=dashed];
+	running -> stopped;
+
+	stopped -> start;
+
+	crashed -> retry;
+	retry -> start [label="timeout", style=dotted];
+	retry -> stopped;
+
+	db_connect_check -> retry [style=dashed];
+	datamodel_check -> retry [style=dashed];
+}

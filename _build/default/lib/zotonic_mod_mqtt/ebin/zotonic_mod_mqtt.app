@@ -1,0 +1,11 @@
+{application,zotonic_mod_mqtt,
+             [{description,"MQTT messaging, connecting server and browser."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[action_mqtt_publish,mod_mqtt,scomp_mqtt_live,
+                        z_mqtt_lastwill,z_mqtt_module_subscriber]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

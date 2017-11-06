@@ -1,0 +1,10 @@
+{application,zotonic_mod_rest,
+             [{description,"REST API for accessing resources."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core,zotonic_mod_l10n]},
+              {env,[]},
+              {modules,[controller_rest_rsc,mod_rest]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

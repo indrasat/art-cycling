@@ -1,0 +1,11 @@
+{application,zotonic_mod_signup,
+             [{description,"Implements public sign up to register as member of this site."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[controller_signup,controller_signup_confirm,
+                        mod_signup]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

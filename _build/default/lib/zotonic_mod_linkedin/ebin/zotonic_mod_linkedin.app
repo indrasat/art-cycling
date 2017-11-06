@@ -1,0 +1,11 @@
+{application,zotonic_mod_linkedin,
+             [{description,"Use LinkedIn for logon."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[controller_linkedin_authorize,
+                        controller_linkedin_redirect,mod_linkedin]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

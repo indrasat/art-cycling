@@ -1,0 +1,12 @@
+{application,zotonic_mod_admin_modules,
+             [{description,"Redirect custom domains and paths to any location."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[action_admin_modules_module_rescan,
+                        action_admin_modules_module_toggle,
+                        controller_admin_module_manager,mod_admin_modules]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

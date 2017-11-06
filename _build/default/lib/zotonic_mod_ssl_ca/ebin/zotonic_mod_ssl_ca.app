@@ -1,0 +1,10 @@
+{application,zotonic_mod_ssl_ca,
+             [{description,"Use SSL Certificate from Let's Encrypt."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[mod_ssl_ca]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

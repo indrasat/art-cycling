@@ -1,0 +1,10 @@
+{application,zotonic_mod_video,
+             [{description,"Play and convert uploaded videos. Requires ffmpeg."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[mod_video,z_video_convert]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

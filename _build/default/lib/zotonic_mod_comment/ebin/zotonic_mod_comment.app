@@ -1,0 +1,12 @@
+{application,zotonic_mod_comment,
+             [{description,"Comments for pages. Implements a simple comment system with comments stored locally."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[controller_admin_comments,
+                        controller_admin_comments_settings,
+                        filter_gravatar_code,m_comment,mod_comment]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

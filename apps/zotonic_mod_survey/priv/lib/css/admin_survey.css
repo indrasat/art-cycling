@@ -1,0 +1,136 @@
+.survey-editor ul {
+    min-height: 1300px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.survey-editor ul li {
+    padding: 4px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    background-color: #f8f8f8;
+    cursor: hand;
+    border: 1px solid #ddd;
+    border-left: 5px solid #ddd;
+}
+
+.survey-editor ul li textarea {
+    width: 90%;
+}
+
+.survey-info {
+    color: #777;
+    font-style: italic;
+}
+
+.pages, .meta-data {
+    margin-top: 2em;
+}
+
+ol.pages {
+    counter-reset:pages;
+}
+
+ol.pages > li {
+    position: relative;
+    background-color: white;
+    background-color: rgba(255,255,255,200);
+    list-style: none;
+}
+
+ol.pages > li:before {
+    content:counter(pages);
+    counter-increment:pages;
+    padding-right: 0.5em;
+    position: absolute;
+    left: -0.5em;
+    background-color: white;
+    font-size: 3em;
+}
+
+.meta-data .buttons {
+    margin-right: 10px;
+}
+
+.page-header {
+    cursor: move;
+}
+
+.page-header:hover {
+    background-color: #eee;
+}
+
+.jump-list, .question-list {
+    padding: 0.5em;
+    margin-left: 12px;
+    min-height: 2em;
+    background-color: #fcfcfc;
+    list-style: none;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.question-list {
+    min-height: 4em;
+}
+
+.question-list > li.block {
+    position: relative;
+}
+
+.question-list > li.block .actions {
+    position: absolute;
+    right: 8px;
+    bottom: 17px;
+}
+
+label.block-type {
+    padding: 4px;
+    color: #ccc;
+}
+
+.hide-expanded .view-expanded {
+    display: none;
+}
+
+#survey .shortanswer input, #survey-qs .shortanswer input {
+    width: 90%;
+}
+
+#survey-qs li {
+    font-size: 80%;
+}
+
+#survey li {
+    background-color: #f8f8f8;
+    border-left-width: 1px;
+}
+
+.dialog-content #survey-question form p {
+    margin: 0;
+}
+
+.dialog-content #survey-question form div {
+    margin: 0 0 18px;
+}
+
+#modal-question {
+    margin-top: 0;
+    top: 10px;
+}
+
+#modal-question .hover {
+    background-color: #f8f8ff;
+}
+
+#modal-question .span4 {
+    min-height: 5em;
+    cursor: pointer;
+}
+
+#modal-question .span4 input,
+#modal-question .span4 textarea,
+#modal-question .span4 select {
+    cursor: pointer;
+}

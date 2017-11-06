@@ -1,0 +1,10 @@
+{application,zotonic_site_testsandbox,
+             [{description,"Module implementing a sandbox website with database for testing purposes."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[controller_test_helloworld,zotonic_site_testsandbox]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

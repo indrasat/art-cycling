@@ -1,0 +1,10 @@
+{application,zotonic_mod_content_groups,
+             [{description,"Categorize content into a hierarchical structure of content groups."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[m_content_group,mod_content_groups]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

@@ -1,0 +1,12 @@
+{application,mimetypes,
+             [{vsn,"1.1.0"},
+              {description,"mimetypes"},
+              {registered,[mimetypes]},
+              {applications,[kernel,stdlib]},
+              {mod,{mimetypes_app,[]}},
+              {env,[]},
+              {maintainers,["Yurii Rashkovskii","ErlangPack"]},
+              {licenses,["BSD"]},
+              {links,[{"Github","https://github.com/erlangpack/mimetypes"}]},
+              {modules,[mimetypes,mimetypes_app,mimetypes_loader,
+                        mimetypes_parse,mimetypes_scan,mimetypes_sup]}]}.

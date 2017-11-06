@@ -1,0 +1,11 @@
+{application,zotonic_mod_signal,
+             [{description,"Signal and slot mechanism for use in templates."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[action_signal_connect,action_signal_disconnect,
+                        action_signal_emit,m_signal,mod_signal,z_connect]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

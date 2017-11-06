@@ -1,0 +1,10 @@
+{application,zotonic_mod_seo,
+             [{description,"Provides admin interface for the SEO modules."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[controller_admin_seo,mod_seo]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

@@ -1,0 +1,8 @@
+{"1.1.0",
+[{<<"proper">>,{pkg,<<"proper">>,<<"1.2.0">>},0},
+ {<<"zotonic_stdlib">>,{pkg,<<"zotonic_stdlib">>,<<"1.0.0-alpha2">>},0}]}.
+[
+{pkg_hash,[
+ {<<"proper">>, <<"1466492385959412A02871505434E72E92765958C60DBA144B43863554B505A4">>},
+ {<<"zotonic_stdlib">>, <<"62625C995D0ED0DF4DA314BEFA47605D78FEF121A0CAF65521557D6725D40B0A">>}]}
+].

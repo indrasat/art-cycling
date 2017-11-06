@@ -1,0 +1,10 @@
+{application,zotonic_mod_email_receive,
+             [{description,"Handle received e-mails, notifies email observers depending on the recipient."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[m_email_receive_recipient,mod_email_receive]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

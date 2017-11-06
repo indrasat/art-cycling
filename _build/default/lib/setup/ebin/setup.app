@@ -1,0 +1,13 @@
+{application,setup,
+             [{description,"Generic setup application for Erlang-based systems"},
+              {vsn,"1.7.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{setup_app,[]}},
+              {start_phases,[{run_setup,[]}]},
+              {env,[]},
+              {maintainers,["Ulf Wiger","Heinz N. Gies"]},
+              {licenses,["Apache"]},
+              {links,[{"Github","https://github.com/uwiger/setup"}]},
+              {modules,[setup,setup_app,setup_gen,setup_lib,setup_srv,
+                        setup_sup]}]}.

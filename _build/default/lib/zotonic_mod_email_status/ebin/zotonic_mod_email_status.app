@@ -1,0 +1,11 @@
+{application,zotonic_mod_email_status,
+             [{description,"Track bounce and receive status of email recipients."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[filter_is_valid_email,m_email_status,
+                        mod_email_status]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

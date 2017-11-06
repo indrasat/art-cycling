@@ -1,0 +1,11 @@
+{application,zotonic_mod_oembed,
+             [{description,"Add external media in your site by their URL."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[mod_oembed,oembed_admin,oembed_client,
+                        oembed_providers]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

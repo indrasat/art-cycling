@@ -1,0 +1,10 @@
+{application,diffy,
+             [{description,"Diff, match patch implementation"},
+              {vsn,"1.0.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {maintainers,["Maas-Maarten Zeeman","Zotonic Team"]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/diffy"}]},
+              {modules,[diffy,diffy_simple_patch,diffy_term]}]}.

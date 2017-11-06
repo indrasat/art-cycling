@@ -1,0 +1,13 @@
+{application,zotonic_mod_export,
+             [{description,"Exports data as CSV and other formats."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[controller_export,controller_export_resource,
+                        export_encode_csv,export_encoder,export_encoder_atom,
+                        export_encoder_csv,export_encoder_ics,
+                        export_encoder_xlsx,mod_export]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

@@ -1,0 +1,10 @@
+{application,jobs,
+             [{vsn,"0.6.0"},
+              {description,"Job scheduler"},
+              {applications,[kernel,stdlib]},
+              {registered,[]},
+              {mod,{jobs_app,[]}},
+              {env,[]},
+              {maintainers,["Ulf Wiger"]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"Github","https://github.com/uwiger/jobs"}]}]}.

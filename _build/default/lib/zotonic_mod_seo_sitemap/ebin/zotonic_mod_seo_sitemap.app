@@ -1,0 +1,10 @@
+{application,zotonic_mod_seo_sitemap,
+             [{description,"Generates sitemap for crawlers, enables better indexing of your site."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[mod_seo_sitemap]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

@@ -1,0 +1,11 @@
+{application,rebar3_auto,
+             [{description,"Rebar3 plugin for auto compiling on changes"},
+              {vsn,"0.3.2"},
+              {registered,[]},
+              {applications,[kernel,stdlib,enotify]},
+              {env,[]},
+              {modules,[rebar3_auto]},
+              {maintainers,["Tristan Sloughter"]},
+              {licenses,["MIT"]},
+              {links,[{"Github",
+                       "https://github.com/tsloughter/rebar3_auto"}]}]}.

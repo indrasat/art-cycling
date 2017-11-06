@@ -1,0 +1,48 @@
+.block-add-block {
+    margin: 0 0 9px 0;
+    
+    .dropdown-menu {
+        top: auto;
+    }
+}
+
+ul.blocks.ui-sortable {
+    padding: 0;
+    margin: 0;
+
+    > li {
+        list-style-type: none;
+        margin-left: 0;
+    }
+
+    .ui-sortable-placeholder {
+        &:extend(.z-drag-drop-placeholder);
+    }
+    
+    .widget-header {
+        position: relative;
+        cursor: move;
+        padding-left: 25px;
+        .extend_icon(icon-drag);
+            
+        &:before {
+             @_icon_size: 16px;
+            position: absolute;
+            width: @_icon_size;
+            height: @_icon_size;
+            font-size: @_icon_size;
+            line-height: @_icon_size;
+            left: @widgetSidePadding;
+            top: @widgetVerticalPadding;
+            color: @textColorMuted;
+        }
+    }
+    .form-control.block-name {
+        background-color: transparent;
+        margin: 0 0 10px 0;
+        
+        &:focus {
+            background-color: #fff;
+        }
+    }
+}

@@ -1,0 +1,244 @@
+/*
+See: http://zotonic.com/docs/latest/manuals/templates/icons.html
+*/
+@font-face {
+  font-family: 'Zotonic';
+  src: url('/lib/css/z.icons/fonts/icomoon.eot?v=1');
+  src: url('/lib/css/z.icons/fonts/icomoon.eot?#iefix&v=1') format('embedded-opentype'), url('/lib/css/z.icons/fonts/icomoon.woff?v=1') format('woff'), url('/lib/css/z.icons/fonts/icomoon.ttf?v=1') format('truetype'), url('/lib/css/z.icons/fonts/icomoon.svg?v=1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.z-icon,
+.fa-icon,
+.md-icon,
+.z-btn-remove:before,
+.z-btn-remove:hover:before,
+.z-btn-help:before,
+a.close:before,
+button.close:before,
+a.close:hover:before,
+button.close:hover:before,
+.zotonic-logo {
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.z-icon:hover,
+a.fa-icon:hover,
+a.md-icon:hover,
+a.zotonic-logo:hover {
+  text-decoration: none;
+}
+.z-icon em,
+.fa-icon em,
+.md-icon em,
+.zotonic-logo em {
+  display: none;
+}
+.z-icon,
+.z-btn-remove:before,
+.z-btn-remove:hover:before,
+.z-btn-help:before,
+a.close:before,
+button.close:before,
+a.close:hover:before,
+button.close:hover:before,
+.zotonic-logo {
+  font-family: "Zotonic";
+}
+.fa-icon {
+  font-family: 'FontAwesome';
+}
+.md-icon {
+  font-family: 'Material Design Iconic Font';
+}
+.z-btn-remove,
+.z-btn-help {
+  display: block;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-shadow: none;
+}
+.z-btn-remove > span,
+.z-btn-help > span,
+.z-btn-remove > em,
+.z-btn-help > em {
+  display: none;
+}
+.z-btn-remove {
+  background-color: transparent;
+}
+.z-btn-remove:before {
+  content: "\e60c";
+}
+.z-btn-remove:hover {
+  text-decoration: none;
+}
+.z-btn-remove:hover:before {
+  content: "\e609";
+}
+.z-btn-help:before {
+  content: "\e600";
+}
+a.close,
+button.close {
+  padding: 0;
+  font-size: 16px;
+}
+a.close:before,
+button.close:before {
+  content: "\e60c";
+}
+a.close:hover:before,
+button.close:hover:before {
+  content: "\e609";
+}
+a.close > span,
+button.close > span,
+a.close > em,
+button.close > em {
+  display: none;
+}
+.z-btn-social {
+  position: relative;
+}
+.z-btn-social,
+.z-btn-sociala,
+.z-btn-social:hover {
+  color: #fff;
+}
+.z-btn-social .z-icon,
+.z-btn-social .fa-icon,
+.z-btn-social .md-icon,
+.z-btn-social .zotonic-logo {
+  position: absolute;
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  height: 16px;
+  width: 16px;
+  text-align: center;
+  top: 50%;
+  left: .5em;
+  margin-top: -7.5px;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/lib/font-awesome-4/fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('/lib/font-awesome-4/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('/lib/font-awesome-4/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('/lib/font-awesome-4/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('/lib/font-awesome-4/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa-icon {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'Material Design Iconic Font';
+  src: url('/lib/material-design/fonts/Material-Design-Iconic-Font.eot?v=1.0.1');
+  src: url('/lib/material-design/fonts/Material-Design-Iconic-Font.eot?#iefix&v=1.0.1') format('embedded-opentype'), url('/lib/material-design/fonts/Material-Design-Iconic-Font.woff?v=1.0.1') format('woff'), url('/lib/material-design/fonts/Material-Design-Iconic-Font.ttf?v=1.0.1') format('truetype'), url('/lib/material-design/fonts/Material-Design-Iconic-Font.svg?v=1.0.1#Material-Design-Iconic-Font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.md-icon,
+[class^="md-icon-"],
+[class*=" md-icon-"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Material Design Iconic Font';
+  font-size: inherit;
+  speak: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.md-icon {
+  line-height: inherit;
+  vertical-align: bottom;
+}
+.z-icon-cross:before {
+  content: "\e60c";
+}
+.z-icon-cross-circle:before {
+  content: "\e609";
+}
+.z-icon-drag:before {
+  content: "\e60b";
+}
+.z-icon-edit:before {
+  content: "\e606";
+}
+.z-icon-facebook:before {
+  content: "\e614";
+}
+.z-icon-google-plus:before {
+  content: "\e610";
+}
+.z-icon-help:before {
+  content: "\e60e";
+}
+.z-icon-help-circle:before {
+  content: "\e600";
+}
+.z-icon-info-circle:before {
+  content: "\e601";
+}
+.z-icon-instagram:before {
+  content: "\e612";
+}
+.z-icon-linkedin:before {
+  content: "\e611";
+}
+.z-icon-logo-z:before {
+  content: "\e607";
+}
+.z-icon-logo:before {
+  content: "\5a";
+}
+.z-icon-minus:before {
+  content: "\e60a";
+}
+.z-icon-minus-circle:before {
+  content: "\e603";
+}
+.z-icon-off:before {
+  content: "\e60f";
+}
+.z-icon-ok:before {
+  content: "\e608";
+}
+.z-icon-ok-circle:before {
+  content: "\e602";
+}
+.z-icon-plus:before {
+  content: "\e60d";
+}
+.z-icon-plus-circle:before {
+  content: "\e604";
+}
+.z-icon-share:before {
+  content: "\e615";
+}
+.z-icon-twitter:before {
+  content: "\e613";
+}
+.z-icon-user:before {
+  content: "\e605";
+}
+.zotonic-logo:before {
+  content: "\5a";
+}

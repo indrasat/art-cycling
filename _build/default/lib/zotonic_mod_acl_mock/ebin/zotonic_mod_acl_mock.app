@@ -1,0 +1,10 @@
+{application,zotonic_mod_acl_mock,
+             [{description,"Mock ACL routines for in the testsandbox."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[mod_acl_mock]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

@@ -1,0 +1,11 @@
+{application,edown,
+             [{vsn,"0.8.1"},
+              {description,"Markdown extension for EDoc"},
+              {applications,[kernel,stdlib,edoc]},
+              {registered,[]},
+              {env,[]},
+              {maintainers,["Ulf Wiger"]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"Github","https://github.com/uwiger/edown"}]},
+              {modules,[edown_doclet,edown_layout,edown_lib,edown_make,
+                        edown_xmerl]}]}.

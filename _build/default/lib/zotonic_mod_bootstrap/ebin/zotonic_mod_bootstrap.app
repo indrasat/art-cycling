@@ -1,0 +1,10 @@
+{application,zotonic_mod_bootstrap,
+             [{description,"Bootstrap provides simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[mod_bootstrap]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

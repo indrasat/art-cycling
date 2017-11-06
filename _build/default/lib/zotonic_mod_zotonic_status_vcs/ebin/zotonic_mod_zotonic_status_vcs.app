@@ -1,0 +1,10 @@
+{application,zotonic_mod_zotonic_status_vcs,
+             [{description,"Allows to update and rebuild sites and zotonic installs from git or mercurial. Used by zotonic_site_status."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[mod_zotonic_status_vcs]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

@@ -1,0 +1,10 @@
+{application,depcache,
+             [{description,"In-memory cache with cache key dependencies"},
+              {vsn,"1.4.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {maintainers,["Arjan Scherpenisse","Marc Worrell"]},
+              {licenses,["Apache 2"]},
+              {links,[{"Github","https://github.com/zotonic/depcache"}]},
+              {modules,[depcache]}]}.

@@ -1,0 +1,10 @@
+{application,zotonic_mod_import_wordpress,
+             [{description,"Import your Wordpress blog into Zotonic using a .wxr file."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[import_wordpress,mod_import_wordpress]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.

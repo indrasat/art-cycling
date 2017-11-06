@@ -1,0 +1,12 @@
+{application,zotonic_mod_search,
+             [{description,"Defines PostgreSQL queries for basic content searches in Zotonic."},
+              {vsn,"pre-transport+build.6794.ref41e3d06"},
+              {registered,[]},
+              {applications,[zotonic_core]},
+              {env,[]},
+              {modules,[mod_search,search_all_bytitle,search_parse_list,
+                        search_query,search_query_notify,
+                        service_search_search]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/zotonic/zotonic"}]}]}.
